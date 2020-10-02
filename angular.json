@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,13 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-d3-corona-time-series"
+    }
+  },
+  "defaultProject": "angular-d3-corona-time-series",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss",
+      "style": "scss"
+    }
+  }
 }
